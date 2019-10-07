@@ -1,1 +1,1 @@
-sebelumnya saya pernah membuat project ini tapi ada beberapa kesalahan, sekarang saya membuat revisi untuk nodejs clean architecture. project ini masih dalam pengembangan, tapi jika kalian ingin contribute saya sangat bahagia :D
+I previously made this project but there were some mistakes, now I make a revision for nodejs clean architecture. this project is still under development, but if you want to contribute I'm very happy: D
