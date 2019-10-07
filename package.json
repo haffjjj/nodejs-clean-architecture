@@ -15,9 +15,11 @@
     "@babel/node": "^7.6.2",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
+    "@babel/preset-flow": "^7.0.0",
     "@babel/runtime": "^7.6.2",
     "babel-node": "0.0.1-security",
     "chai": "^4.2.0",
+    "flow-bin": "^0.109.0",
     "mocha": "^6.2.1",
     "nodemon": "^1.19.3"
   },

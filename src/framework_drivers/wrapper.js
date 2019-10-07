@@ -10,6 +10,7 @@ const responseRest = (data, message = "success", error = new Error("error")) => 
 
   return {
     message: message,
+    developer_message: "",
     data: data,
     detail: detail,
   }

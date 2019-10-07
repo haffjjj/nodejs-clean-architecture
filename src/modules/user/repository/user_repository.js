@@ -1,4 +1,8 @@
-class UserRepository {
+// @flow
+
+import { I } from "./interface"
+
+class UserRepository implements I {
   fetchUser() {
     return [
       {
