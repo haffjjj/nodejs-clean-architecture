@@ -1,6 +1,7 @@
 //@flow
 
+type fetchUserReturn = { name: string }[] | Error
+
 export interface I {
-  constructor(obj: { userEntities: any, logger: any }): any,
-  fetch(): any,
+  fetch(): fetchUserReturn,
 }

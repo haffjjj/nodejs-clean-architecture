@@ -1,12 +1,13 @@
-// @flow
+//@flow
+
 import { I } from "./interface"
-import { I as UserRepositoryInterface } from "../repository/interface"
+import { I as UserEntitiesInterface } from "../entities/interface"
 
 class UserUseCase implements I {
-  userEntities: UserRepositoryInterface
+  userEntities: UserEntitiesInterface
   logger: any
 
-  constructor( obj: { userEntities: UserRepositoryInterface, logger: any } ) {
+  constructor( obj: { userEntities: UserEntitiesInterface, logger: any } ) {
     this.userEntities = obj.userEntities
     this.logger = obj.logger
   }
