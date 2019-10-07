@@ -1,0 +1,35 @@
+{
+  "name": "node_clean_arch",
+  "version": "1.0.0",
+  "description": "clean architecture for nodejs",
+  "main": "index.js",
+  "author": "haffjjj",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -s -D -d dist --require babel-polyfill",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-node": "0.0.1-security",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.6.2",
+    "apollo-server-express": "^2.9.5",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "log4js": "^5.2.0",
+    "merge-graphql-schemas": "^1.7.0",
+    "mongoose": "^5.7.3"
+  }
+}
