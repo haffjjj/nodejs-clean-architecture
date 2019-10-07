@@ -16,7 +16,7 @@ class UserDeliveryHttpRest implements I{
     this._logger = obj.logger
     this._wrapper = obj.wrapper
     
-    obj.http.get("/users", this.fetch.bind(this))
+    // obj.http.get("/users", this.fetch.bind(this))
   }
 
   fetch(_: any, res: any): any{  
