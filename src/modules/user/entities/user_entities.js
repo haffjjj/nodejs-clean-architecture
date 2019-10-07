@@ -4,14 +4,14 @@ import { I } from "./interface"
 import { I as UserRepositoryInterface } from "../repository/interface"
 
 class UserEntities implements I {
-  userRepository: UserRepositoryInterface
+  _userRepository: UserRepositoryInterface
 
   constructor( obj: { userRepository: UserRepositoryInterface } ) {
-    this.userRepository = obj.userRepository
+    this._userRepository = obj.userRepository
   }
 
   fetchUser() {
-    const users = this.userRepository.fetchUser()
+    const users = this._userRepository.fetchUser()
     return users
   }
 }
