@@ -32,6 +32,6 @@
     "lodash": "^4.17.15",
     "log4js": "^5.2.0",
     "merge-graphql-schemas": "^1.7.0",
-    "mongoose": "^5.7.3"
+    "mongoose": "^5.7.5"
   }
 }
